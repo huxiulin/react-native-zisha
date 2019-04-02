@@ -1,5 +1,5 @@
 /**
- * 项目入口文件
+ * 项目主入口文件
  */
 
  import React,{Component} from "react";
