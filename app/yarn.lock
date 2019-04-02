@@ -701,6 +701,10 @@
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/yargs" "^12.0.9"
 
+"@react-native-community/async-storage@^1.2.2":
+  version "1.2.2"
+  resolved "http://registry.npm.taobao.org/@react-native-community/async-storage/download/@react-native-community/async-storage-1.2.2.tgz#1f9851a6dd2b0af08ed3ab69b7f7353c4e85ea1d"
+
 "@react-native-community/cli@^1.2.1":
   version "1.5.2"
   resolved "http://registry.npm.taobao.org/@react-native-community/cli/download/@react-native-community/cli-1.5.2.tgz#5f6a686e639189a5a6c579b0da1042d8ae585bb1"
@@ -4715,6 +4719,10 @@ redux-saga@^1.0.2:
   resolved "http://registry.npm.taobao.org/redux-saga/download/redux-saga-1.0.2.tgz#0599703f975438f1b2f9d2b9a965ec58f0fdfcd7"
   dependencies:
     "@redux-saga/core" "^1.0.2"
+
+redux-thunk@^2.3.0:
+  version "2.3.0"
+  resolved "http://registry.npm.taobao.org/redux-thunk/download/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
 
 "redux@>=0.10 <5", redux@^4.0.1:
   version "4.0.1"
