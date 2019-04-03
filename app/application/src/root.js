@@ -9,6 +9,7 @@
  import {PersistGate} from "redux-persist/integration/react";
  import SplashScreen from "react-native-splash-screen";
  import configureStore from "./store/ConfigureStore";
+ import AppNavigator from "./container/App";
  const configStore = configureStore();
  
 
@@ -29,6 +30,7 @@
             {/* <View>
               <Text>111111111</Text>
             </View> */}
+            <AppNavigator />
           </PersistGate>
         </Provider>
      );
