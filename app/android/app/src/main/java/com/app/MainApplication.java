@@ -3,6 +3,7 @@ package com.app;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.react.rnspinkit.RNSpinkitPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.beefe.picker.PickerViewPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNSpinkitPackage(),
             new AsyncStoragePackage(),
             new PickerViewPackage(),
             new RNI18nPackage(),
